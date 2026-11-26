@@ -269,13 +269,13 @@ result[result["prediction"] == -1]
 
 # **📊 AI Code Comparison**
 
-| **FeatureChatGPTGeminiClaude** |                            |                            |                            |
+| **Feature**                    |     ChatGPT                |   Gemini                   |   Claude                   |
 | ------------------------------ | -------------------------- | -------------------------- | -------------------------- |
-| **Basic Code Generation**      | ✅                          | ✅                          | ✅                          |
-| **Data Preprocessing**         | ✅                          | ✅                          | ✅                          |
-| **Isolation Forest**           | ✅                          | ✅                          | ✅                          |
-| **Modular Functions**          | ⚠️                         | ✅                          | ✅                          |
-| **Error Handling**             | ⚠️                         | ⚠️                         | ✅                          |
+| **Basic Code Generation**      | ✅                         | ✅                          | ✅                       |
+| **Data Preprocessing**         | ✅                         | ✅                          | ✅                       |
+| **Isolation Forest**           | ✅                         | ✅                          | ✅                       |
+| **Modular Functions**          | ⚠️                         | ✅                          | ✅                       |
+| **Error Handling**             | ⚠️                         | ⚠️                         | ✅                        |
 | **Code Readability**           | High                       | High                       | Very High                  |
 | **Beginner Friendly**          | Very High                  | High                       | High                       |
 | **Optimization**               | Medium                     | High                       | High                       |
@@ -291,7 +291,7 @@ result[result["prediction"] == -1]
 
 ### **Potential Bugs Identified**
 
-| **Bug / IssueCauseSolution** |                                          |                                    |
+| **Bug / Issue**              |     Cause                                | Solution                           |
 | ---------------------------- | ---------------------------------------- | ---------------------------------- |
 | Missing dataset              | Incorrect file path                      | Verify dataset path                |
 | Missing values               | Dataset contains null values             | Apply missing-value handling       |
@@ -503,8 +503,8 @@ preprocess\_data(data)
 
 # **🧪 Unit Testing Results**
 
-| **Test CaseExpected ResultStatus** |                                   |        |
-| ---------------------------------- | --------------------------------- | ------ |
+| **Test Case**                      |      Expected                     |Result   |
+| ---------------------------------- | --------------------------------- | ------  |
 | Valid employee data                | Data successfully processed       | ✅ PASS |
 | Categorical values                 | Converted to numerical values     | ✅ PASS |
 | Missing required column            | Error raised                      | ✅ PASS |
@@ -514,7 +514,7 @@ preprocess\_data(data)
 
 # **🔄 Manual Coding vs AI-Assisted Coding**
 
-| **ParameterManual CodingAI-Assisted Coding** |                               |                                |
+| **Parameter**                                |    Manual Coding              |    AI-Assisted Coding          |
 | -------------------------------------------- | ----------------------------- | ------------------------------ |
 | **Development Speed**                        | Medium                        | Very High                      |
 | **Code Generation**                          | Requires manual effort        | Very Fast                      |
@@ -531,13 +531,13 @@ preprocess\_data(data)
 
 # **📈 Code Quality Analysis**
 
-| **Quality FactorAI-Assisted Coding Result** |           |
-| ------------------------------------------- | --------- |
-| **Readability**                             | ⭐⭐⭐⭐⭐     |
+| **Quality FactorAI-Assisted Coding **       |  Result         |
+| ------------------------------------------- | ----------------|
+| **Readability**                             | ⭐⭐⭐⭐⭐    |
 | **Efficiency**                              | ⭐⭐⭐⭐☆     |
 | **Maintainability**                         | ⭐⭐⭐⭐☆     |
 | **Error Handling**                          | ⭐⭐⭐⭐☆     |
-| **Modularity**                              | ⭐⭐⭐⭐⭐     |
+| **Modularity**                              | ⭐⭐⭐⭐⭐    |
 | **Testing**                                 | ⭐⭐⭐⭐☆     |
 | **Documentation**                           | ⭐⭐⭐⭐☆     |
 | **Overall Quality**                         | **⭐⭐⭐⭐☆** |
